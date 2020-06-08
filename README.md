@@ -1,3 +1,2 @@
-# Plantilla_Front_2020
-Plantilla para proyectos de FrontEnd = HMLT5 + CSS3 + SASS + JAVASCRIPT
 # 10---Anotaciones-Practica
+	-DOM: Atributos, Encontrar padre, Clonacion de documento,reemplazar un elemento, eliminar hijo, entre otros
