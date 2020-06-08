@@ -1,0 +1,14 @@
+/* Lo llamamos con un id verdad? 
+    si
+    entonces */
+
+#reloj 
+    {
+        background-color: #000;
+        padding: 0.5rem;
+        color: rgb(18,145,28);
+        font-family: serif;
+        font-size: 5rem;
+        display: inline-block;
+
+    }
