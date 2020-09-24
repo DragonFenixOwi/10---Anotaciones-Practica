@@ -1,6 +1,24 @@
 
+/* 
+    --------------------------------------------
+        Author : Osvaldo Aquino
+        NickName: Owi
+        DOM
+    --------------------------------------------
+*/
+
+
+
+
 // creamos una variable boton y con getElementById agarramos ese boton desde el script
 var boton = document.getElementById('boton');
+
+
+/* 
+    -----------------------------
+        EJEMPLO CON CLONACIÓN 
+    -----------------------------
+*/
 
 /*
     Ejemplo CLONACION 
@@ -30,7 +48,11 @@ boton.addEventListener('click',function()
     });
 
 
-
+/* 
+    -----------------------------
+        EJEMPLO SIN CLONACIÓN 
+    -----------------------------
+*/
 /*
     Ejemplo SIN CLONACION 
     cada vez que queremos añadir un documento o un texto 
@@ -68,6 +90,12 @@ boton.addEventListener('click',function()
 
 
 
+
+/* 
+    ----------------------------------------------
+        PARENTHNODE - LOCALIZAR ELEMENTO PADRE
+    ----------------------------------------------
+*/
 
 
 /*
@@ -153,10 +181,10 @@ var nodoTextoLista = document.createTextNode("Nueva linea");
 nodoLista.appendChild(nodoTextoLista);  // tenemos preparado la lista nueva "pero no insertado"
 
 
-
-
-/*
-    REEMPLAZAR UN ELEMENTO
+/* 
+    ------------------------------
+        REEMPLAZAR UN ELEMENTO
+    ------------------------------
 */
 
 
@@ -189,22 +217,22 @@ padreLista.replaceChild(nodoLista, padreLista.lastChild);
 
 
 
-
-
-/*
-    Eliminar un hijo
+/* 
+    ------------------------
+        ELIMINAR UN HIJO
+    ------------------------
 */
+
 
 padreLista.removeChild(padreLista.getElementsByTagName("li")[0]);
 
 
 
-
-
-/*
-    CREAR RAPIDAMENTE UN ELEMENTO VACIO CON ATRIBUTOS
+/* 
+    ---------------------------------------------------------
+        CREAR RAPIDAMENTE UN ELEMENTO VACIO CON ATRIBUTOS
+    ---------------------------------------------------------
 */
-
 
 
 /*
