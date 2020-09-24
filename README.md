@@ -1,8 +1,11 @@
-# 10---Anotaciones-Practica
+# 10-Anotaciones-Practica
+
   - DOM Pagina Dinamica
-    - Atributos JavaScript 
-    -Clonación document.write
+    - Clonación 
+    - Sin Clonación
+    - Atributos JavaScript     
     - Encontrar padre "parentNode"
-    - Hora y Fecha 
     - Eliminar hijo 
     - Reemplazar elemento 
+    
+  - Hora y Fecha 
