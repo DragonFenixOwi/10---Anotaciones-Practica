@@ -1,8 +1,21 @@
 /* 
+    --------------------------------------------
+        Author : Osvaldo Aquino
+        NickName: Owi
+        FECHA Y HORA 
+    --------------------------------------------
+*/
+
+
+
+/* 
     Fecha y hora
         - Trabajamos con la pila del reloj
         -  
 */
+
+
+
 var d =new date();
 
 
@@ -13,9 +26,7 @@ document.write
             , <br> Mes(0 - 11): ${d.getMoth()}, <br> Año ${d.getFullYear()}
             , <br> Hora : ${d.getHours()}, <br> minutos : `
         
-            /*
 
-        */
     );
 
 
@@ -37,7 +48,9 @@ document.write(`FECHA: ${dia}/${fechaHora.getFullYear()}`);
 
 
 /*
-    COMO SE CREA UN RELOJ  
+    -----------------------------
+        COMO SE CREA UN RELOJ  
+    -----------------------------
 */
 
 /*
